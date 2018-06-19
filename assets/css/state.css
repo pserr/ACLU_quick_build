@@ -169,35 +169,43 @@ h4 {
 }
 
 .stage_1 {
-  width: 40vw;
+  right: 30vw;
+  width: 10vw;
 }
 
 .stage_2 {
-  width: 45vw;
+  right: 40vw;
+  width: 5vw;
 }
 
 .stage_3 {
-  width: 48vw;
+  right: 45vw;
+  width: 3vw;
 }
 
 .stage_4 {
-  width: 52vw;
+  right: 48vw;
+  width: 4vw;
 }
 
 .stage_5 {
-  width: 56vw;
+  right: 52vw;
+  width: 4vw;
 }
 
 .stage_6 {
-  width: 59vw;
+  right: 56vw;
+  width: 3vw;
 }
 
 .stage_7 {
-  width: 62vw;
+  right: 59vw;
+  width: 3vw;
 }
 
 .stage_8 {
-  width: 65vw;
+  right: 62vw;
+  width: 3vw;
 }
 
 /* -----------------------------  SIDEBAR  ---------------------------------*/
@@ -248,10 +256,10 @@ vertical-align: top;
 
 /* -----------------------------  TRANSFORMS  ---------------------------------*/
 
-[data-aos="background_fill"] {
+[data-aos=background_fill] {
   background: #0055AA;
   transition-property: background;
-  &.aos-animate {
-    background: #FFF;
-  }
+}
+[data-aos=background_fill].aos-animate {
+  background: #FFF;
 }
