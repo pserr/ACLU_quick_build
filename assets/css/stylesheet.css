@@ -7,8 +7,8 @@
 }
 
 body {
-  background: #0055AA;
-  color: #0055AA;
+  background: #fff;
+  color: #000;
   padding: 0px;
   margin: 0px;
   font-family: 'GT America', Arial, Helvetica, sans-serif;
@@ -40,9 +40,9 @@ h1 a {
 
 h3 {
   margin: 0;
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
 }
 
 h4 {
@@ -52,21 +52,28 @@ h4 {
   font-weight: 300;
 }
 
+.layout
+{width:100%;
+max-width: 1230px;
+margin: 0 auto;}
+
 
 /* -----------------------------  NAVIGATION  ---------------------------------*/
 
 .nav {
   width: 100%;
+  max-width: 1230px;
   padding: 0 30px 10px 30px;
   position: fixed;
-  top: 0;
-  left: 0;
   height: 60px;
   background: #fff;
   color: #000;
   z-index: 100;
+  top: 0;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%);
 }
-
 .nav_box {
   margin-top: 15px;
   /* vertical-align: center; */
@@ -90,7 +97,7 @@ h4 {
   width: 100%;
 }
 .spacer_3 {
-  height: 2400px;
+  height: 1448px;
   width: 100%;
 }
 
@@ -142,20 +149,20 @@ h4 {
 
 .pre_1980 {
   padding-left: 30px;
-  background-color: #FCAA17;
-  color: #EF404E;
+  background-color: #000;
+  color: #000;
   background-image: url("../img/4x4_2x2.png");
   background-repeat: repeat;
-  height: 14930px;
+  height: 10266px;
 }
 
 .post_1980 {
   padding-left: 30px;
-  background-color: #A7D7B5;
-  color: #000;
+  background-color: #CCC;
+  color: #666;
   background-image: url("../img/4x4_2x2.png");
   background-repeat: repeat;
-  height: 7200px;
+  height: 10000px;
 }
 
 /* -----------------------------  POPUPS  ---------------------------------*/
@@ -199,6 +206,31 @@ h4 {
 }
 
 .p4 {
+  left: 900px;
+  top: 2600px;
+}
+
+.p5 {
   left: 400px;
-  top: 2200px;
+  top: 3100px;
+}
+
+.p6 {
+  left: 700px;
+  top: 3600px;
+}
+
+.p7 {
+  left: 800px;
+  top: 4600px;
+}
+
+.p8{
+  left: 300px;
+  top: 5000px;
+}
+
+.p9{
+  left: 700px;
+  top: 5600px;
 }
