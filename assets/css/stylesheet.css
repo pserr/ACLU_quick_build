@@ -1,0 +1,193 @@
+
+/* -----------------------------  GLOBAL ---------------------------------*/
+
+* {
+  box-sizing: border-box;
+  font-size: 0px;
+}
+
+body {
+  background: #0055AA;
+  color: #0055AA;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'GT America', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+a {
+  display: inherit;
+  color: inherit;
+  text-decoration: underline;
+  margin: 0px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1 {
+  margin:0px;
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 500;
+}
+
+h1 a {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 500;
+}
+
+h3 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+
+/* -----------------------------  NAVIGATION  ---------------------------------*/
+
+.nav {
+  width: 100%;
+  padding: 0 30px 10px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background: #fff;
+  color: #000;
+  z-index: 100;
+}
+
+.nav_box {
+  margin-top: 15px;
+  /* vertical-align: center; */
+  height: 30px;
+}
+
+/* -----------------------------  GRID  ---------------------------------*/
+
+
+
+.c {
+   display: inline-block;
+}
+
+.spacer_1 {
+   height: 200px;
+   width: 100%;
+}
+.spacer_2 {
+  height: 900px;
+  width: 100%;
+}
+.spacer_3 {
+  height: 2400px;
+  width: 100%;
+}
+
+.l {
+   text-align: left;
+}
+
+.r {
+  text-align: right;
+}
+
+.cen {
+  text-align: center;
+}
+
+
+.c1 {
+   width: 10%;
+}
+.c2 {
+  width: 20%;
+}
+.c3 {
+  width: 30%;
+}
+.c4 {
+  width: 40%;
+}
+.c5 {
+  width: 50%;
+}
+.c6 {
+  width: 60%;
+}
+.c7 {
+  width: 70%;
+}
+.c8 {
+  width: 80%;
+}
+.c9 {
+  width: 90%;
+}
+.c10 {
+  width: 100%;
+}
+
+/* -----------------------------  LONG SCROLL  ---------------------------------*/
+
+.pre_1980 {
+  padding-left: 30px;
+  background-color: #FCAA17;
+  color: #EF404E;
+  background-image: url("../img/4x4_2x2.png");
+  background-repeat: repeat;
+  height: 14930px;
+}
+
+.post_1980 {
+  padding-left: 30px;
+  background-color: #A7D7B5;
+  color: #000;
+  background-image: url("../img/4x4_2x2.png");
+  background-repeat: repeat;
+  height: 7200px;
+}
+
+/* -----------------------------  POPUPS  ---------------------------------*/
+
+.person {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -18px;
+  left: 46%;
+	width: 0;
+	height: 0;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 18px solid #000;
+	/* margin-left: -25px;
+	margin-bottom: -25px; */
+}
+
+.p1 {
+  left: 800px;
+  top: 600px;
+}
+
+.p2 {
+  left: 800px;
+  top: 1200px;
+}
