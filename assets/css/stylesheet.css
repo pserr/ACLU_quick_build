@@ -163,7 +163,8 @@ h4 {
 .person {
   font-size: 14px;
   font-weight: 300;
-  padding: 15px;
+  padding: 15px 30px;
+  max-width: 300px;
   background-color: #000;
   color: #fff;
   position: absolute;
@@ -188,6 +189,16 @@ h4 {
 }
 
 .p2 {
-  left: 800px;
+  left: 300px;
   top: 1200px;
+}
+
+.p3 {
+  left: 600px;
+  top: 1600px;
+}
+
+.p4 {
+  left: 400px;
+  top: 2200px;
 }
