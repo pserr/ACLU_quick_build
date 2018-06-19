@@ -93,11 +93,16 @@ margin: 0 auto;}
    width: 100%;
 }
 .spacer_2 {
-  height: 900px;
+  height: 2025px;
   width: 100%;
 }
 .spacer_3 {
-  height: 1448px;
+  height: 3258px;
+  width: 100%;
+}
+
+.spacer_4 {
+  height: 500px;
   width: 100%;
 }
 
@@ -151,54 +156,18 @@ margin: 0 auto;}
   padding-left: 30px;
   background-color: #000;
   color: #000;
-  background-image: url("../img/4x4_2x2.png");
+  background-image: url("../img/6x6_3x3.png");
   background-repeat: repeat;
-  height: 10266px;
+  height: 23098px;
 }
 
 .post_release {
   padding-left: 30px;
   background-color: #CCC;
   color: #666;
-  background-image: url("../img/4x4_2x2.png");
-  background-repeat: repeat;
-  height: 10000px;
-}
-
-.pre_release_2 {
-  padding-left: 30px;
-  background-color: #000;
-  color: #000;
-  background-image: url("../img/2x2_1x1.png");
-  background-repeat: repeat;
-  height: 10266px;
-}
-
-.post_release_2 {
-  padding-left: 30px;
-  background-color: #CCC;
-  color: #666;
-  background-image: url("../img/2x2_1x1.png");
-  background-repeat: repeat;
-  height: 10000px;
-}
-
-.pre_release_3 {
-  padding-left: 30px;
-  background-color: #000;
-  color: #000;
   background-image: url("../img/6x6_3x3.png");
   background-repeat: repeat;
-  height: 10266px;
-}
-
-.post_release_3 {
-  padding-left: 30px;
-  background-color: #CCC;
-  color: #666;
-  background-image: url("../img/6x6_3x3.png");
-  background-repeat: repeat;
-  height: 10000px;
+  height: 22500px;
 }
 
 /* -----------------------------  POPUPS  ---------------------------------*/

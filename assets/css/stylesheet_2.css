@@ -27,14 +27,14 @@ a {
 
 h1 {
   margin:0px;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 70px;
+  line-height: 70px;
   font-weight: 500;
 }
 
 h1 a {
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 70px;
+  line-height: 70px;
   font-weight: 500;
 }
 
@@ -89,15 +89,15 @@ margin: 0 auto;}
 }
 
 .spacer_1 {
-   height: 200px;
+   height: 100px;
    width: 100%;
 }
 .spacer_2 {
-  height: 900px;
+  height: 225px;
   width: 100%;
 }
 .spacer_3 {
-  height: 1448px;
+  height: 198px;
   width: 100%;
 }
 
@@ -147,23 +147,6 @@ margin: 0 auto;}
 
 /* -----------------------------  LONG SCROLL  ---------------------------------*/
 
-.pre_release {
-  padding-left: 30px;
-  background-color: #000;
-  color: #000;
-  background-image: url("../img/4x4_2x2.png");
-  background-repeat: repeat;
-  height: 10266px;
-}
-
-.post_release {
-  padding-left: 30px;
-  background-color: #CCC;
-  color: #666;
-  background-image: url("../img/4x4_2x2.png");
-  background-repeat: repeat;
-  height: 10000px;
-}
 
 .pre_release_2 {
   padding-left: 30px;
@@ -171,7 +154,7 @@ margin: 0 auto;}
   color: #000;
   background-image: url("../img/2x2_1x1.png");
   background-repeat: repeat;
-  height: 10266px;
+  height: 2566px;
 }
 
 .post_release_2 {
@@ -180,26 +163,10 @@ margin: 0 auto;}
   color: #666;
   background-image: url("../img/2x2_1x1.png");
   background-repeat: repeat;
-  height: 10000px;
+  height: 2500px;
 }
 
-.pre_release_3 {
-  padding-left: 30px;
-  background-color: #000;
-  color: #000;
-  background-image: url("../img/6x6_3x3.png");
-  background-repeat: repeat;
-  height: 10266px;
-}
 
-.post_release_3 {
-  padding-left: 30px;
-  background-color: #CCC;
-  color: #666;
-  background-image: url("../img/6x6_3x3.png");
-  background-repeat: repeat;
-  height: 10000px;
-}
 
 /* -----------------------------  POPUPS  ---------------------------------*/
 
@@ -228,7 +195,7 @@ margin: 0 auto;}
 
 .p1 {
   left: 800px;
-  top: 600px;
+  top: 400px;
 }
 
 .p2 {
@@ -246,27 +213,3 @@ margin: 0 auto;}
   top: 2600px;
 }
 
-.p5 {
-  left: 400px;
-  top: 3100px;
-}
-
-.p6 {
-  left: 700px;
-  top: 3600px;
-}
-
-.p7 {
-  left: 800px;
-  top: 4600px;
-}
-
-.p8{
-  left: 300px;
-  top: 5000px;
-}
-
-.p9{
-  left: 700px;
-  top: 5600px;
-}
